@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+
+.navbar-right {
+    float: right;
+    padding-right: 20%;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    padding: 30px;
+    color: #bbb;
+    font-family: Ariel;
+    font-weight: 500;
+}
+
+.navbar-right a:hover {
+    text-decoration: underline;
+}
+
+.navbar-logo {
+    padding-left: 20%;
+    font-family: Ariel;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
